@@ -1,6 +1,6 @@
 # Vending Machine Change Tracker
 
-VendingMachineChangeTracker - is a part of VendingMachine application tracks change (as in coins) within the vending
+**VendingMachineChangeTracker** - is a part of VendingMachine application tracks change (as in coins) within the vending
 machines.
 Implementation is a dynamic programming algorithm with memorization wrapped in a spring-shell application.
 
@@ -16,17 +16,17 @@ Implementation is a dynamic programming algorithm with memorization wrapped in a
 
 #### Vending Machine Service Commands
 
-* ii: Initialize the vending machine with items (example: ii -v items.csv or ii -v or ii -v default)
-* ic: Initialize the vending machine with coins (example: ic -v coins.csv or ic -v or ic -v default)
-* lk: Lookup Vending Machine inventory coins (example: lk)
+* **ii:** Initialize the vending machine with items (example: ii -v items.csv or ii -v or ii -v default)
+* **ic:** Initialize the vending machine with coins (example: ic -v coins.csv or ic -v or ic -v default)
+* **lk:** Lookup Vending Machine inventory coins (example: lk)
 
 #### Vending Machine User Commands
 
-* add: Top up user balance by coin (example: add -v 50) accepted coin denominations are [5,10,20,50,100,200]
-* get: Make order (example: get -v cola) [cola,crackers,snack,beer,crisp,cider]
-* return: Return deposited coins (example: return)
+* **add:** Top up user balance by coin (example: add -v 50) accepted coin denominations are [5,10,20,50,100,200]
+* **get:** Make order (example: get -v cola) [cola,crackers,snack,beer,crisp,cider]
+* **return:** Return deposited coins (example: return)
 
-### Init Files Description
+### Create Configuration Files
 
 #### Init Coin
 
@@ -56,8 +56,10 @@ CLI accepts *.csv files in format below
 
 ### How to Run
 
-* need to have Java17 installed on machine
-* java -jar (path to *.jar file) example "java -jar vending-machine-change-tracker-0.0.1.jar"
+* need to have **Java17** installed on machine
+* download executable jar **[vending-machine-change-tracker.jar](https://github.com/HMLTL/vending-machine-change-tracker/releases/download/v1.0/vending-machine-change-tracker.jar)**
+* download initial config files **[coins.csv](https://github.com/HMLTL/vending-machine-change-tracker/releases/download/v1.0/coins.csv)**, **[items.csv](https://github.com/HMLTL/vending-machine-change-tracker/releases/download/v1.0/items.csv)**
+* execute java -jar (path to *.jar file) example "java -jar vending-machine-change-tracker-0.0.1.jar"
 
 ### Scenario to play with
 
